@@ -1,0 +1,134 @@
+{
+  "Composting and carbon emissions information": {
+    "US Composting Council": {
+      "summary": "Front page for the leading composting advocacy organization in the country.",
+      "location": "http://compostingcouncil.org/\n"
+    },
+    "EPA landfill emissions regulations": {
+      "summary": "The EPA's landing page for information pertaining to new regulations on landfill gas emissions. The regulations pertain primarily to emissions capturing procedures for newly built landfills, but they are used in this project as motivation for proposals to minimize the amount of waste sent to landfills in the first place.",
+      "location": "https://www.epa.gov/stationary-sources-air-pollution/municipal-solid-waste-landfills-new-source-performance-standards\n"
+    },
+    "Compost emissions reduction": {
+      "summary": "An academic article published in the Journal of Environmental Quality in 2008. It reviews carbon emissions from a variety of sources relevant to landfilling organic waste and compares these to emissions levels associated with composting. The conclusion drawn is that composting almost always involves a net reduction in carbon emissions, and it can even function as a carbon sink.",
+      "location": "http://faculty.washington.edu/slb/docs/slb_JEQ_08.pdf\n"
+    },
+    "Waste to energy concerns": {
+      "summary": "Potential problems with using landfill gas as an energy source.",
+      "location": "http://www.energyjustice.net/lfg/\n"
+    },
+    "EPA trucking industry regulations": {
+      "summary": "Outline of new regulations on emissions standards for heavy-duty trucks.",
+      "location": "https://www3.epa.gov/otaq/climate/regs-heavy-duty.htm\n"
+    },
+    "Green Mountain Technologies": {
+      "summary": "A valuable resource for all sorts of tools related to composting. Used here primarily for their compost calculator tool, which helps composters to determine an effective recipe with their chosen feedstocks.",
+      "location": "http://compostingtechnology.com/resources/compost-calculator/\n"
+    },
+    "New York City Compost Project hosted by Big Reuse": {
+      "summary": "The NYCCP hosted by Big Reuse is part of a community-scale composting network that works to rebuild city soils by providing New Yorkers with the knowledge, skills, and opportunties they need to produce and use compost locally. They host weekly food scrap drop-off locations, train New Yorkers in urban composting best practices, and produce high-quality compost. The finished compost is used in community gardens, on street trees, and in public beautification projects.",
+      "location": "http://www.bigreuse.org/compost\n"
+    },
+    "Solar powered aeration": {
+      "summary": "A Biocycle profile of a composting operation that utilizes solar panels to power the blowers on their aerated static piles.",
+      "location": "https://www.biocycle.net/2015/11/16/evolving-into-food-scraps-composting/\n"
+    },
+    "Process to further reduce pathogens": {
+      "summary": "EPA Code of Federal Regulations, Title 40 (Protection of Environment), Part 503 (STANDARDS FOR THE USE OR DISPOSAL OF SEWAGE SLUDGE), Appendix B (Pathogen Treatment Processes)",
+      "location": "http://bit.ly/2etFVPS\n"
+    },
+    "Soil Control Lab": {
+      "summary": "California-based lab that provides compost testing services.",
+      "location": "http://www.compostlab.com/\n"
+    },
+    "Soil Foodweb": {
+      "summary": "Directory of labs for compost testing services.",
+      "location": "http://www.soilfoodweb.com/Labs.html\n"
+    },
+    "Solvita testing": {
+      "summary": "Testing equipment for determining the stability of compost.",
+      "location": "https://solvita.com/\n"
+    },
+    "Plant bioassay": {
+      "summary": "A procedure for testing the safety of growing in soil. Determine the level of potentially dangerous elements by attempting to grow plants with known sensitivities to those elements and monitoring their vitality.",
+      "location": "http://sciencenetlinks.com/student-teacher-sheets/plant-bioassays/\n"
+    }
+  },
+  "Colorado-specific information": {
+    "Fort Collins Road to Zero Waste": {
+      "summary": "A report commissioned by the City of Fort Collins to develop a plan for moving the city toward sending zero waste to landfills.",
+      "location": "http://www.fcgov.com/zerowaste/\n"
+    },
+    "Colorado composting statutes": {
+      "summary": "Lexus Nexus search for Colorado state statutes on fertilizers and soil conditioners.",
+      "location": "http://bit.ly/2dpuCrx\n"
+    },
+    "Colorado registered composters": {
+      "summary": "A list of registered composting facilities in Colorado, compiled from Colorado Department of Public Health & Environment data.",
+      "location": "/frci/co-registered-composters/\n"
+    },
+    "Colorado Solid Waste Facility regulations": {
+      "summary": "6 CCR 1007-2 Part 1 Section 14 pertains to composting facilities.",
+      "location": "https://www.colorado.gov/pacific/cdphe/solid-waste-regulations\n"
+    },
+    "Colorado emissions controls": {
+      "summary": "Colorado Public Radio report on greenhouse gas emissions controls to be proposed by Governor Hickenlooper.",
+      "location": "http://www.cpr.org/news/newsbeat/hickenlooper-drafts-proposed-goal-to-cut-greenhouse-gas\n"
+    },
+    "Colorado Climate Plan": {
+      "summary": "A statewide strategy of policy recommendations and actions to mitigate greenhouse gas emissions and to increase Colorado’s level of preparedness. The Colorado Climate Plan focuses on seven main sectors including water, public health, energy, transportation, agriculture, tourism and recreation, and ecosystems.",
+      "location": "http://cwcb.state.co.us/environment/climate-change/Pages/main.aspx\n"
+    },
+    "Larimer County Landfill Tipping fees": {
+      "summary": "Outline of tipping fees at the Larimer County Landfill, 2016.",
+      "location": "http://larimer.org/solidwaste/landfill_fees.htm\n"
+    },
+    "Emerald Ash Borer": {
+      "summary": "Predictions for the next devastating beetle infestation, this time specific to Fort Collins.",
+      "location": "http://www.coloradoan.com/story/news/2016/10/05/natural-disaster-looming-fort-collins-ash-trees/91607402/\n"
+    }
+  },
+  "Food waste information": {
+    "USDA Food Losses": {
+      "summary": "A report issued by the USDA on food loss in the US. It calculates the amount of food that is wasted from a variety of sources and attempts to quantify the lost value from this waste.",
+      "location": "http://www.ers.usda.gov/media/1282296/eib121.pdf\n"
+    },
+    "USDA Food Waste Challenge": {
+      "summary": "Joint EPA/USDA project to reduce food waste in the US.",
+      "location": "http://www.usda.gov/oce/foodwaste/index.htm\n"
+    },
+    "EPA Food waste": {
+      "summary": "The EPA's landing page for information on food waste in the US. It includes data on common food waste sources as well as tips on how individuals can reduce their food waste.",
+      "location": "https://www.epa.gov/sustainable-management-food/food-too-good-waste-implementation-guide-and-toolkit\n"
+    }
+  },
+  "Miscellaneous data": {
+    "Weight of water": {
+      "summary": "Values for the weight of water in different quantities used in conjunction with Green Mountain Technologies data to calculate the weight of food scraps.",
+      "location": "https://www.fourmilab.ch/hackdiet/www/subsection1_4_2_0_7.html\n"
+    },
+    "Weight of other materials": {
+      "summary": "Volume to weight conversions for a variety of materials, tabulated by the EPA.",
+      "location": "https://www.epa.gov/sites/production/files/2016-04/documents/volume_to_weight_conversion_factors_memorandum_04192016_508fnl.pdf\n"
+    },
+    "Truck bed dimensions": {
+      "summary": "Table of dimensions for common pick-up truck beds. Used here for calculating the carrying capacity of the FRCI at its proposed scale.",
+      "location": "http://www.truckinamerica.com/toppers/BedSize.htm\n"
+    },
+    "Toter carts": {
+      "summary": "Specs on Toter brand waste disposal carts.",
+      "location": "http://www.toter.com/consumers/category/two-wheeled-carts\n"
+    },
+    "Toter cart lifters": {
+      "summary": "Specs on hydraulic lifters for dumping out full Toter carts.",
+      "location": "http://www.toter.com/professional/category/organic-cart-lifters\n"
+    },
+    "Skid-steer loader": {
+      "summary": "Skid-steers are the most common tool for moving around compost in medium scale composting operations.",
+      "location": "https://en.wikipedia.org/wiki/Skid-steer_loader\n"
+    },
+    "Trucking route design": {
+      "summary": "Wiki on the ins and outs of designing truck routes for carting operations.",
+      "location": "https://en.wikibooks.org/wiki/Fundamentals_of_Transportation/Network_Design_and_Frequency#Route_design\n"
+    }
+  }
+}

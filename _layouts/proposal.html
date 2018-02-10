@@ -1,0 +1,13 @@
+{% include top.html %}
+
+<div class="bunch page">
+
+{% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+{% if page.description %}<div class="exsubtitle">{{ page.description | markdownify }}</div>{% endif %}
+<hr>
+
+{{ content }}
+
+</div>
+
+{% include bottom.html %}

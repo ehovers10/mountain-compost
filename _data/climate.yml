@@ -1,0 +1,78 @@
+Fort Collins zero waste initiative:
+  type: policy
+  scope: municipal
+  trend: positive
+  description: >
+    In December 2013 the Fort Collins City Council adopted ambitious waste reduction goals, with an aim for zero waste by 2030.
+Boulder zero waste ordinance:
+  type: policy
+  scope: municipal
+  trend: positive
+  description: >
+    On June 16, 2015, City Council adopted a Universal Zero Waste Ordinance (Boulder Revised Code Title 6, Chapter 3 and Title 6, Chapter 12) to expand recycling and composting to all Boulder residents, employees and visitors.
+EPA landfill emission regulations:
+  type: policy
+  scope: national
+  trend: positive
+  description: >
+    On August 29, 2016, EPA announced final updates to its New Source Performance Standards (NSPS) to reduce emissions of methane-rich landfill gas from new, modified and reconstructed municipal solid waste (MSW) landfills. In a separate action, EPA also issued guidelines for reducing emissions from existing MSW landfills. Both actions are part of the President’s Climate Action Plan – Strategy to Reduce Methane Emissions.
+Colorado climate plan:
+  type: policy
+  scope: state
+  trend: positive
+  description: >
+    The Colorado Climate Plan focuses on seven main sectors including water, public health, energy, transportation, agriculture, tourism and recreation, and ecosystems. Moving forward,
+Water conservation regulations:
+  type: policy
+  scope: state
+  trend: positive
+  description: >
+    TBD
+Nitrogen runoff regulations:
+  type: policy
+  scope: state
+  trend: positive
+  description: >
+    TBD
+County landfill tipping fees:
+  type: market
+  scope: municipal
+  trend: negative
+  description: >
+    Colorado tipping fees are some of the lowest in the country. This takes away an incentive to pursue alternative waste management practices.
+Demand for compost vs fertilizer:
+  type: market
+  scope: state
+  trend: negative
+  description: >
+    The farming culture is fairly set in its ways. Fertilizer application is a common practice that is well entrenched. Compost application involves new practices and carries uncertainty, of which farmers are understandably not fans. In addition, chemical industry lobbyists have a lot of resources at their disposal to push their products.
+Overhead:
+  type: operation
+  scope: municipal
+  trend: negative
+  description: >
+    There are significant costs associated with starting up a composting operation. Space and equipment are primary issues. Another concern is that there will be at least a 6 month period before there is any distributable product.
+Profit margins:
+  type: operation
+  scope: municipal
+  trend: negative
+  description: >
+    Compost is just not that valuable of a market commodity given the amount of resources that go into its production.
+Fuel costs:
+  type: operation
+  scope: municipal
+  trend: positive
+  description: >
+    Localism keeps transportation needs down, and an emphasis on smaller scale processing means less need for mechanization at the compost site.
+Insurance/regulation costs:
+  type: operation
+  scope: municipal
+  trend: positive
+  description: >
+    Colorado regulations provide an exemption for any composting operation under 100 cubic yards. In addition, at these scales, fire prevention and environmental remediation concerns are minimal.
+Localism:
+  type: operation
+  scope: municipal
+  trend: neutral
+  description: >
+    Many of the pressures listed here are dependent on the scale of the operation. Localism brings both positive and negative pressures in its wake.

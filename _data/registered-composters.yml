@@ -1,0 +1,181 @@
+ACE COMPOSTING:
+  operator: " "
+  class: I
+  address: 10639 CoRd 30, YUMA
+  county: Yuma
+EAST REGIONAL LANDFILL:
+  operator: Alpine Waste & Recycling
+  class: II
+  address: 8201 Schumaker Road, Bennet
+  web: >
+    http://alpinewaste.com/our-services/disposal-services/
+  county: Adams
+BOSS COMPOST:
+  operator: " "
+  class: III
+  address: 16700 WCR 12, Ft. Lupton
+  web: >
+    http://bosscompost.com/
+  county: Weld
+CB INDUSTRIES COMPOSTING:
+  operator: " "
+  class: I
+  address: 11289 Doughspoon Road, Austin
+  web: >
+    http://www.cbicompost.com/
+  county: Delta
+COLORADO COMPOST:
+  operator: Native Seeders
+  class: III
+  address: SE 1/4 Section 10, T2N, R52W, Akron
+  web: >
+    http://www.coloradocompost.com/
+  county: Washington
+DENVER ARAPAHOE DISPOSAL SITE:
+  operator: Waste Management
+  class: I
+  address: 3500 Gun Club Road, Aurora
+  web: >
+    https://www.wmsolutions.com/facilities/details/id/53
+  county: Arapahoe
+DONS GARDEN SHOP:
+  operator: " "
+  class: III
+  address: 6001 E Platte Ave, Colorado Springs
+  web: >
+    http://www.donsgardenshop.com/
+  county: El Paso
+EATON COMPOSTING:
+  operator: A1 Organics
+  class: III
+  address: 16350 WCR 76, Eaton
+  web: >
+    http://a1organics.com/facilities.htm#EA
+  county: Weld
+FRONT RANGE DAIRY:
+  operator: " "
+  class: V
+  address: 9743 WCR 16, Fort Lupton
+  web: >
+    https://www.facebook.com/FrontRangeJerseyDairy
+  county: Weld
+DYECREST DAIRY:
+  operator: " "
+  class: V
+  address: 1137 N. County Line Rd 1, Ft. Collins
+  web: >
+    http://dyecrestdairy.com/
+  county: Larimer
+HEARTLAND RENEWABLE ENERGY:
+  operator: EDF Renewable Energy
+  class: WTE
+  address: SE 1/4 of Section 25 T4N R65W, LaSalle
+  web: >
+    http://www.edf-re.com/project/heartland-biogas/
+  county: Weld
+MESA COUNTY LANDFILL:
+  operator: " "
+  class: I
+  address: 3071 Highway 50, Grand Junction
+  web: >
+    http://www.mesacounty.us/swm/compost/facility.aspx
+  county: Mesa
+MIDWAY LANDFILL AND ORGANIC:
+  operator: Waste Management
+  class: I
+  address: 8925 Rancho Colorado Blvd, Pueblo
+  web: >
+    https://www.wmsolutions.com/facilities/details/id/54
+  county: El Paso
+MILNER LANDFILL:
+  operator: Twin Enviro Services
+  class: I
+  address: 20650 Routt County Road, Milner
+  web: >
+    http://www.twinenviro.com/locations/steamboat/
+  county: Routt
+MOUNTAIN VIEW FARM:
+  operator: " "
+  class: V
+  address: 6875 N Cty Rd 9, Loveland
+  web: >
+    https://www.facebook.com/pages/Mountain-View-Farm/105724959495061
+  county: Larimer
+ORGANIX SUPPLY:
+  operator: The Richlawn Company
+  class: V
+  address: 15121 County Road 32, Platteville
+  web: >
+    http://www.therichlawncompany.com/
+  county: Weld
+PERMAGREEN PRODUCT COMPANY:
+  operator: Permagreen Organics
+  class: III
+  address: 2663 Weld County Road, Erie
+  web: >
+    http://www.permagreenorganics.com/
+  county: Weld
+PITKIN COUNTY SOLID WASTE CENTER:
+  operator: " "
+  class: I
+  address: 32046 Highway 82, Snowmass Village
+  web: >
+    http://www.aspenpitkin.com/Living-in-the-Valley/Green-Initiatives/Recycling/Compost-%28SCRAPS%29-/
+  county: Pitkin
+RATTLER RIDGE COMPOSTING:
+  operator: A1 Organics
+  class: I
+  address: 12002 WCR 59, Keenesburg
+  web: >
+    http://a1organics.com/facilities.htm#RR
+  county: Weld
+SOIL SOLUTIONS COMPOSTING FACILITY:
+  operator: " "
+  class: V
+  address: 530 County Road 61, Hooper
+  web: >
+    http://soilsolutionscolorado.com/
+  county: Saguache
+SOUTH CANYON SOLID WASTE DISPOSAL SITE:
+  operator: " "
+  class: I
+  address: 1205 County Road 134, Glenwood Springs
+  web: >
+    http://www.ci.glenwood-springs.co.us/170/Landfill
+  county: Garfield
+STROMO COMPOSTING, LLC:
+  operator: " "
+  class: I
+  address: 21970 Rd 30, Hudson
+  county: Weld
+SUMMIT COUNTY RESOURCE ALLOCATION PARK:
+  operator: " "
+  class: I
+  address: 639 SCR 66, Dillon
+  web: >
+    http://www.co.summit.co.us/232/Compost
+  county: Summit
+TEAGUE ENTERPRISES:
+  operator: " "
+  class: II
+  address: 15366 Road O, Fort Morgan
+  county: Morgan
+TV DAIRY:
+  operator: " "
+  class: V
+  address: 7678 WCR 17, Fort Lupton
+  county: Weld
+WESTERN DISPOSAL COMPOST SITE:
+  operator: " "
+  class: II
+  address: 2655 N. 63rd st, Boulder
+  web: >
+    http://www.westerndisposal.com/
+  county: Boulder
+VITA TERRA SUSTAINABILITY, LLC:
+  operator: " "
+  class: V
+  address: 13946 Morgan County Road 21, Fort Morgan
+  web: >
+    http://www.vitaterras.com/
+  county: Morgan

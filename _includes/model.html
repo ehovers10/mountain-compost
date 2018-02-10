@@ -1,0 +1,15 @@
+<table class="model">
+  <colgroup>
+  {% for item in include.source %}
+    <col class="column-{% cycle "even","odd" %}" />
+  {% endfor %}
+  </colgroup>
+{% for item in include.source %}
+  <tr>
+    <th>{{ item[0] | capitalize }}</th>
+  {% for thing in item[1] %}
+    <td>{{ thing | capitalize }}</td>
+  {% endfor %}
+  </tr>
+{% endfor %}
+</table>

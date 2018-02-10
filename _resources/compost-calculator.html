@@ -1,0 +1,69 @@
+---
+title: Compost calculator
+description:  >
+  An application for formulating a compost recipe.
+scripts: [calculator,bunch,toc]
+permalink: calculator/
+back: trowel1600-min.jpg
+---
+
+<div id="begin" class="area begin">
+  <div class="title">What feedstocks do you have?</div>
+  <ul>
+  <li><label for="datasource">Choose items on file:</label>
+  <select name="datasource" id="datasource">
+    <option value="{{ "none.json" | prepend: "/data/" | prepend: site.baseurl }}">Choose</option>
+    <option value="{{ "feedstocks.json" | prepend: "/data/" | prepend: site.baseurl }}">GMT</option>
+  </select>
+  <div class="feeds"></div></li>
+  <li><a href="#" class="datamanual">Add your own: {% include icons/plus.svg %}</a>
+  <div class="additional"></div></li>
+  </ul>
+
+  <div class="title">How are you measuring?</div>
+  <ul>
+  <li><input type="radio" name="measure" value="weight" checked><label for="weight">by Weight</label></li>
+  <li><input type="radio" name="measure" value="volume"><label for="volume">by Volume</label></li>
+  </ul>
+
+  <div class="title">What are your target values?</div>
+  <ul>
+  <li><input type="number" name="mctarget" id="mctarget" value="65"><label for="mctarget">Moisture content (%)</label></li>
+  <li><input type="number" name="cntarget" id="cntarget" value="25"><label for="cntarget">Carbon:Nitrogen</label></li>
+  <li><input type="number" name="bdtarget" id="bdtarget" value="40"><label for="bdtarget">Bulk density</label></li>
+  </ul>
+
+
+  <input type="hidden" name="screenwidth" id="screenwidth" value="900">
+  <input type="hidden" name="screenheight" id="screenheight" value="600">
+  <input type="hidden" name="gotfeeds" id="gotfeeds" value="off">
+
+  <div class="internal block"><a href="#" class="selection" id="submit">Calculate</a></div>
+</div>
+
+<div id="selection" class="area selection hid">
+  <div style="width:50%;margin:0;min-width:300px;float:left;">
+    <div class="title">Recipe components</div>
+    <div class="feedlist"></div>
+  </div>
+  <div style="width:50%;margin:0;min-width:300px;float:left;">
+    <div class="title">Set your ratios</div>
+    <div class="partslist"></div>
+  </div>
+  <div style="clear:both;"></div>
+  <div class="targets">
+    <div class="title">Your recipe</div>
+
+    <div class="subtitle">Moisture Content</div>
+    <div class="value mcvalue"><div class="num"></div><div class="optimum"></div><div class="tape"></div></div>
+
+    <div class="subtitle">Bulk Density</div>
+    <div class="value bdvalue"><div class="num"></div><div class="optimum"></div><div class="tape"></div></div>
+
+    <div class="subtitle">Carbon:Nitrogen</div>
+    <div class="value cnvalue"><div class="num"></div><div class="optimum"></div><div class="tape"></div></div>
+  </div>
+  <div style="clear:both"></div>
+  <div class="internal block"><a href="#" class="begin">Back to values</a></div>
+</div>
+</div>

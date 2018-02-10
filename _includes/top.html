@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="generator" content="jekyll" />
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <title>{{page.title}}</title>
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" href="http://cdn.mountaincompost.com/frci-icon.png">
+
+  {% if site.mode == 'dev' %}
+    <link href="{{ "main" | append: ".css" | prepend: "/css/" | prepend: site.baseurl }}" rel="stylesheet">
+  {% else %}
+    <link href="http://cdn.mountaincompost.com/frci-min.css" rel="stylesheet">
+  {% endif %}
+  
+</head>
+
+<body>
+  <div class="pageback" style="background-image: url({{ page.back | prepend: "http://cdn.mountaincompost.com/"}});">
+    <div class="inner"></div>
+  </div>
+
+<header>
+  <div class="widewrap">
+  <div class="exleft">
+    <a class="extitle" href="{{site.baseurl}}/">{{site.title}}</a>
+    {% if page.title %}<div class="exsubtitle">{{page.title}}</div>{% endif %}
+    <div class="exdescription">{% include copy.html %}</div>
+
+  </div>
+  <div class="exright">
+    {% if page.description %}<div class="exdescription">{{page.description | markdownify | remove: "<p>" | remove: "</p>" }}</div>{%endif%}
+  </div>
+  </div>
+  <div style="clear:both;"></div>
+  <div id="site-nav">{% include site-nav.html %}</div>
+
+</header>
+
+
+<div class="wrap">

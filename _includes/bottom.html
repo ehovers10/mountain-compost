@@ -1,0 +1,17 @@
+    </div>
+{% if site.mode == 'dev' %}
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="{{ "open" | append: ".js" | prepend: site.script-directory | prepend: site.baseurl }}"></script>
+  <script src="{{ "nav" | append: ".js" | prepend: site.script-directory | prepend: site.baseurl }}"></script>
+  {% for scrip in page.scripts %}
+  <script src="{{ scrip | append: ".js" | prepend: site.script-directory | prepend: site.baseurl }}"></script>
+  {% endfor %}
+{% else %}
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="http://cdn.mountaincompost.com/frci-min.js"></script>
+{% endif %}
+{% if page.datatables %}
+  {% include datatables-head.html %}
+{% endif %}
+  </body>
+</html>

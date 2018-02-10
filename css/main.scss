@@ -1,0 +1,51 @@
+---
+---
+@charset "utf-8";
+
+//@font-face { font-family: 'glam'; src: url({{ '/fonts/GlametrixBold.otf' | prepend: site.baseurl }}); }
+
+// Our variables
+$sansserif-font:   Arial, Helvetica, sans-serif;
+$serif-font:       Georgia, sans-serif;
+$header-ff:        glam;
+$base-font-size:   18px;
+$header-fs:        40px;
+$ex-fs:            $header-fs * 0.75;
+$small-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$textColor:       #111;
+$text-color-light: #fff;
+$background-color: #aaaaaa;
+$pagecolor:        #F5F5F5;
+$linkColor:        rgba(51, 153, 51, 1);
+$com-color:        rgba(204,51,51,0.95);
+$ref-color:        rgba(90,90,90,0.95);
+$gloss-color:      rgba(49,159,72,0.95);
+$def-color:        rgba(42,122,226,0.95);
+
+$greyColor:       #828282;
+$grey-color-light: lighten($greyColor, 40%);
+$grey-color-dark:  darken($greyColor, 25%);
+
+// Width of the content area
+$content-width:    800px;
+$big-width:        900px;
+$pagewidth:        760px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+$mobile:           700px;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "counters",
+        "layout",
+        "navigation",
+        "calculator",
+        "chart",
+        "odor"
+;

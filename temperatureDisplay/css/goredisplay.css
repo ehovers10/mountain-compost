@@ -1,0 +1,202 @@
+html,body { margin:0; font-family: Helvetica, sans-serif; }
+
+h1,h2,h3 { margin: 10px; color: #555; }
+a, a:visited {
+  text-decoration: none;
+  color: #555;
+}
+header {
+    border-top: 5px solid #555;
+    border-bottom: 1px solid #aaa;
+    min-height: 56px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+footer {
+  //border-bottom: 5px solid #555;
+  border-top: 1px solid #aaa;
+  min-height: 56px;
+  text-align: left;
+}
+header .wrap {
+  position: relative;
+}
+.exleft {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding-left: 15px;
+  vertical-align: middle;
+  max-width: 300px;
+}
+.exright {
+  position: absolute;
+  right: 0;
+  top: 0;
+  vertical-align: middle;
+  padding-right: 15px;
+  max-width: 300px;
+  text-align: right;
+}
+.extitle {
+    font-size: 26px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+.exdescription {
+  font-size: 14px;
+  color: #888;
+  padding: 10px 10px 5px;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+.wrap {
+  width: 900px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+}
+@media all and (max-width: 900px) {
+  .wrap {
+    margin: 0;
+    width: 100%;
+  }
+  .bunch, .dataTables_wrapper {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+@media all and (max-width: 600px) {
+  .exright, .exleft {
+    position: relative;
+    text-align: left;
+    max-width:none;
+  }
+}
+.input-thing {
+  margin: 0;
+  float:left;
+  max-width: 400px;
+  padding-right: 15px;
+}
+.input-thing ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  color: #555;
+}
+.submitwrap {
+  text-align: center;margin: 20px 0 15px;
+}
+form {
+  border: 1px solid #aaa;
+  margin: auto;
+  width: 100%;
+}
+
+.formwrap {
+  //text-align: center;
+  margin: auto 11px;
+  clear: both;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 20px 0;
+  color: #555;
+}
+.bunch {
+  margin-bottom: 100px;
+}
+.bunch:after {
+  content: " ";
+  display: block;
+  clear:both;
+}
+.chartnav {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid $aaa;
+}
+.chartnav li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 1em;
+  //font-size: 1.5em;
+  text-align: center;
+}
+.chartnav li.active a {
+  color: #ccc;
+  background: #555;
+
+}
+.chartnav a {
+  text-decoration: none;
+  font-weight: 600;
+}
+.hid { display: none; }
+.area { height: inherit; }
+
+.graphwrap {
+  float: left;
+}
+.graphwrap:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.graphspace {
+  position: relative;
+  height: inherit;
+  color: #888;
+  left: 0;
+  bottom: 0;
+}
+.graphpattern,.points {
+  position: relative;
+  height: inherit;
+  left: 0;
+  bottom: 0;
+}
+.point {
+  position: absolute;
+  bottom: 0;
+}
+.xwrap {
+  position: relative;
+}
+.xaxis {
+  position: relative;
+  border-top: 1px solid #888;
+}
+.xlabel {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  position: absolute;
+  top: 30px;
+}
+.yaxis {
+  position: relative;
+  border-right: 1px solid #888;
+  float: left;
+}
+.yaxis div {
+  right: 0;
+  padding-right: 3px;
+}
+.ylabel {
+  line-height: 0;
+}

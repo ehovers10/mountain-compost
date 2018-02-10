@@ -1,0 +1,75 @@
+Products and Services:
+  Tipping fees:
+    summary: Feedstock deliveries
+    details: Only works in a market that charges significant fees for landfill disposal
+  Compost sales:
+    summary: Bagged or bulk distribution of the finished product
+    details:
+      - Wholesale to garden stores
+      - City parks for top-dressing
+      - Farmers
+      - Registered household customers
+  Registered pick-up contracts:
+    summary: Contracts for us to pick-up food waste on a regular schedule.
+    details:
+      - Requires a market where residents pay for waste collection
+      - Some customers may value the environmental benefit of sustainable waste collection
+  Compost application:
+    summary: Bulk compost applied to large surfaces.
+    details:
+      - Screened for top-dressing sports fields or parks lawns
+      - Unscreened(?) for application on farm fields.
+      - Works best with a contract for yearly application
+      - Requires some sort of spreading device
+  Environmental crediting:
+    summary: Services related to crediting for the environmental benefits of compost application
+    details:
+      - Water conservation credits for the retention benefits of compost
+      - Carbon removal credits for the re-addition of lost-carbon to agricultural soils
+      - Aid in acquiring the credits
+      - Pre-acquisition and distribution of credits
+      - Credit awareness programs
+
+Government Resources:
+  Municipal waste collection contracts:
+    summary: " "
+    details: " "
+  City government incorporation:
+    summary: " "
+    details: " "
+  Contract with city parks:
+    summary: Compost application
+    details:
+      - Top-dressing fields
+      - Amending tree-beds
+      - Revitalizing gardens
+  Land leasing:
+    summary: " "
+    details: " "
+
+Grants:
+  Fort Collins Zero Waste Initiative:
+    summary: This project meets the city's *Road to Zero Waste* priority of **Culture Change**.
+    details:
+      - It also provides a means of partially meeting the **Compostable Organics out of Landfills** priority.
+      - It would serve as a precursor and complement to the proposed regional industrial composting facility.
+  Community group activism:
+    summary: " "
+    details: " "
+  Corporate partnerships:
+    summary: The philanthropic alignment of the craft brewing community in the Front Range makes it seem like a particularly well-suited source.
+    details: " "
+  EPA climate change mitigation efforts:
+    summary: " "
+    details: " "
+  EPA guidelines for landfill methane emissions:
+    summary: Municipalities and private landfill operators looking to meet standards
+    details: " "
+  Potential state level emissions controls:
+    summary: " "
+    details: " "
+
+In kind donation:
+  Land leasing:
+    summary: " "
+    details: " "

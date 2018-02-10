@@ -1,0 +1,43 @@
+<table class="data">
+  {% if include.caption %}<caption align="bottom">Updated: {{ page.date | date: "%B %Y" }}</caption>{% endif %}
+  <thead>
+    <tr>
+      {% for item in include.source | limit: 1 %}
+        <th>Name</th>
+        {% for thing in item[1] %}
+        <th>{{ thing[0] | capitalize }}</th>
+        {% endfor %}
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+  {% for item in include.source %}
+    <tr>
+      <td>
+      {% if item[1].web %}
+        <b><a href="{{ item[1].web }}">{{ item[0] }}</a></b>
+      {% else %}
+        <b>{{ item[0] }}</b>
+      {% endif %}
+      </td>
+      {% for thing in item[1] %}
+        {% unless thing[0] == 'web' %}
+          {% if thing[1][0] %}
+          <td>
+            <table>
+            {% for bit in thing[1] %}
+              <tr>
+                <td>{{ bit | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+              </tr>
+            {% endfor %}
+            </table>
+          </td>
+          {% else %}
+            <td class="{{thing[0]}}"><span class="{{ thing[1] | truncatewords: 1, "" }}">{{ thing[1] | markdownify | remove: "<p>" | remove: "</p>" }}</span></td>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>

@@ -1,0 +1,48 @@
+body {counter-reset:section;}
+
+h2 {
+  counter-reset:subsection;
+  font-size: 2em;
+  margin-top: 2em;
+
+  &:before {
+    counter-increment:section;
+    content: counter(section) " ";
+  }
+}
+h3 {
+  counter-reset: subsubsection;
+  margin-top: 1.5em;
+  &:before {
+    counter-increment:subsection;
+    content:counter(section) "." counter(subsection) " ";
+  }
+}
+@media all and (min-width: 800px) {
+  h2,h3 {
+    margin-top: -80px;
+    padding-top: 90px;
+  }
+}
+/*h3 {
+  &:before {
+    counter-increment:subsubsection;
+    content:counter(section) "." counter(subsection) "." counter(subsubsection) " ";
+  }
+}*/
+
+.back-to-top {
+  float: right;
+  color: $linkColor;
+  svg {
+    width: 12px;
+    path {
+      fill: $linkColor;
+    }
+  }
+  &:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}

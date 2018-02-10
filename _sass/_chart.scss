@@ -1,0 +1,80 @@
+.chartnav {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #aaa;
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.5em 1em 0 0;
+    //font-size: 1.25em;
+    line-height: 1.25em;
+    text-align: center;
+
+    a {
+      padding: 5px;
+    }
+  }
+  li.active a {
+    color: #fff;
+    background: $linkColor;
+  }
+}
+
+.graphwrap {
+  float: left;
+  .area { height: inherit; }
+}
+.graphwrap:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+.graphspace {
+  position: relative;
+  height: inherit;
+  color: #888;
+  left: 0;
+  bottom: 0;
+}
+.graphpattern,.points {
+  position: relative;
+  height: inherit;
+  left: 0;
+  bottom: 0;
+}
+.point {
+  position: absolute;
+  bottom: 0;
+}
+.xwrap {
+  position: relative;
+  margin-bottom: 50px;
+}
+.xaxis {
+  position: relative;
+  border-top: 1px solid #888;
+}
+.xlabel {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  position: absolute;
+  top: 30px;
+}
+.yaxis {
+  position: relative;
+  border-right: 1px solid #888;
+  float: left;
+}
+.yaxis div {
+  right: 0;
+  padding-right: 3px;
+}
+.ylabel {
+  line-height: 0;
+}

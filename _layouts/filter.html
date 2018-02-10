@@ -1,0 +1,21 @@
+---
+layout: proposal
+---
+
+<div class="bunch page">
+  <select id="viewsources" name="viewsources"></select>
+{% if page.addable %}
+  <a href="#" id="addsource">New item</a>
+  <div id="addblock" style="display:none;"></div>
+{% endif %}
+  <div id="resources"></div>
+
+{{ content }}
+
+</div>
+
+<script>
+  var source = {{ site.data.[page.datasource] | jsonify }},
+      header = "{{page.header}}";
+  categories(source,1,header);
+</script>

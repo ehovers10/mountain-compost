@@ -1,0 +1,49 @@
+# Site settings
+title: Mountain Compost
+description: >
+  Resources dedicated to composting, tailored for mountain folk.
+email: erikhov@mountaincompost.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mountaincompost.com" # the base hostname & protocol for your site
+
+github_username:  ehovers10
+
+script-directory: "/js/"
+
+# Build settings
+mode: prod
+markdown: kramdown
+sass:
+  style: compressed
+exclude: [sources,wolfram,assets,images,deprecated,compostCalculator,temperatureDisplay,python]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "proposal"
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "proposal"
+  - scope:
+      path: ""
+      type: "frci"
+    values:
+      layout: "section"
+  - scope:
+      path: ""
+      type: "fort-collins"
+    values:
+      layout: "section"
+
+collections:
+  frci:
+    output: false
+  fort-collins:
+    output: false
+  resources:
+    output: true

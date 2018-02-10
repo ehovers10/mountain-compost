@@ -1,0 +1,70 @@
+methane: |
+  According to an [EPA factsheet on New Source Performance Standards](https://www.epa.gov/sites/production/files/2016-09/documents/landfills-final-nsps-eg-factsheet.pdf) of the *President's Climate Action Plan: Strategy to Reduce Methane Emissions*, issued July 14, 2016.
+
+landfillgas: |
+  The waste-to-energy model is promising, but it is not without large developmental and implementation concerns. A major concern is that the gas emitted from landfills is not pure methane. [Landfill gas contains a variety of chemicals](http://www.energyjustice.net/lfg/), many of which cannot be safely burned. These must be somehow removed, which adds a substantial cost to the project.
+
+compost-basics: |
+  The primary nutrients bacteria require in their food are carbon and nitrogen. Carbon-rich feedstocks, collectively called *browns*, include dried leaves, wood shavings, and paper. Principle examples of nitrogen-rich feedstocks, known as *greens*, are fruit and vegetables, manure, and green grass clippings. Balancing the greens and browns in ones' recipe ensures that the bacteria have a healthy diet.
+  <br><br>
+  Healthy decomposition also requires an adequate supply of oxygen. Bacteria that burn oxygen when they consume are said to compost *aerobically*. Aerobic composting is quite clean and involves little noxious odor and greenhouse gas emission. When oxygen is lacking, anaerobic bacteria take over, and they produce significant amounts of methane as a byproduct. This is the source of odor and emissions in a landfill or unhealthy compost pile. To ensure that bacteria have a healthy supply of oxygen, we must make sure that air can flow to all parts of the compost pile. The easiest way to ensure this is by adding a bulking agent to the recipe. Since carbon-rich ingredients tend to be fairly rigid (woody), we can often get both oxygen and carbon in one by judiciously selecting our source of browns.
+  <br><br>
+  As with all life forms (that we know of), bacteria require water to survive. They need enough to support their consumption functions but not so much that they lose access to free oxygen and drown. Once again, judicious ingredient selection offers a space for efficiency. Certain nitrogen-rich ingredients, such as fruit and vegetable waste, tend also to contain a lot of water. Selecting the proper greens can minimize the amount of additional water that must be added to the pile.
+
+netnegative: |
+    In a [2008 Journal of Environmental Quality report](http://faculty.washington.edu/slb/docs/slb_JEQ_08.pdf), the authors demonstrate that  a number of site-specific factors influence the net carbon output of a compost system. These include the transportation of feedstocks to the composting facility, use of electrical and internal combustion motors in the composting process, the compost recipe used, and the care with which a pile is maintained.  Allowing that there can be great variation in the carbon credit composting provides, the authors conclude:
+    <br><br>
+    "The majority of C credits for composting different feedstocks are related to avoidance or prevention of CH4 release. Composting operations can also be considered to be sources of GHGs for the energy requirements for composting and for fugitive gas emissions during the composting process. Even in a worst-case scenario, however, these emissions are minimal in comparison to the benefits associated with avoidance credits. It is also possible to significantly reduce emissions from compost piles by an increase in the solids content of the feedstocks and by an increase in the C/N ratio. This review confirms that composting, in addition to other environmental benefits associated with this practice, can be an effective means to reduce GHG emissions from a range of waste materials." (p. 1409)
+    <br><br>
+    When the carbon sequestration benefits of compost are factored in, the composting process can conceivably result in a net decrease in greenhouse gas emissions.
+
+recipe: |
+  Our initial plan is to mix these feedstocks in a 2:1 ratio by volume of wood chips to food discards. While we believe that this recipe is both efficient and sustainable, we don't wish to pigeonhole the project. Market forces may call for adjustments to the feedstocks used, and only with actual experience with the materials can we determine the appropriate ratio for the mix.
+
+watercontent: |
+  Based on [Green Mountain Technologies compost calculator data](http://compostingtechnology.com/resources/compost-calculator/), the moisture content of various greens: Vegetable produce and waste = 87%, Grass cuttings = 82%, Cattle manure = 81%, Fruit waste = 80%, Poultry manure = 53%, Green waste = 30%
+
+foodloss: |
+  According to a USDA report, [The Estimated Amount, Value, and Calories of Postharvest Food Losses at the Retail and Consumer Levels in the United States](http://www.ers.usda.gov/media/1282296/eib121.pdf). Our first priority should be finding ways to reduce the amount of food that goes to waste. But given that we have the supply, composting is a viable way to reduce its environmental impact. The outreach arm of FRCI will dedicate efforts to educating the public about food waste, and work to reducing the numbers found in the USDA report.
+
+nyccphbbr: >
+  It is certainly a challenge to do this successfully. Composting food waste is not without some ick-factor. But the [New York City Compost Project hosted by Big Reuse](http://www.bigreuse.org/compost), located in Queens, serves as a proof of concept. Their operation processes 1 million pounds of organic matter yearly. All food waste they accept is produced in Queens, and their composting operation is situated less than 100 yards from the Queensbridge Houses, an NYC Housing Authority Development.
+
+nyccp-brs: >
+  Again, the [NYC Compost Project](http://nyc.gov/compostproject) serves as a model. This is a division of the city's Bureau of Recycling and Sustainability, itself a branch of the Department of Sanitation.
+
+parks-land: >
+  This is the idea behind our proposal to utilize spaces within city limits for our composting operation. The proposal is dependent on the scale of the operation. Leasing of city-central, public lands fits well with our [Sustainably mechanized](#sustainably-mechanized) and [Distributed](#distributed) scales.
+
+truck-regs: >
+  Similar to their landfill emissions regulations, the EPA has released new regulations on heavy-duty truck emissions that focus on making the trucks more energy efficient. They propose that their regulations could lower carbon dioxide emissions by 1.1 billion metric tons. This is an important measure, but we feel that there are also great gains to be made by finding ways to minimize the number of trucks on the road and the distances they must travel. Local waste management is a big step in this direction.
+
+distributed-effort: >
+  There are inefficiencies built into this distributed model. Composting is subject to economies of scale, and a distributed composting effort has to duplicate anew infrastructure that could be simply scaled up at larger, unified facilities.
+  <br><br>
+  But complications are also avoided by keeping each facility scaled down: Colorado State Regulations provide an exemption for all facilities up to 100 cubic yards, fire and run-off prevention measures are greatly simplified, and environmental impact and remediation is far less consuming.
+
+station-collage: >
+  Here are some examples to fix ideas
+  <br><br>
+  ![Drop-off station collage](http://cdn.mountaincompost.com/drop-off-stations.jpg){: .pic}
+bike-snow: >
+  People produce food scraps year-round, and the composting process functions even in cold winter temperatures. But its not fesible to operate at this scale with significant amounts of snow on the ground, which, in the Front Range, potentially cuts out a large swath of service time. We could potentially complement the bike fleet with a ski-based fleet for winter conditions, but we don't have a plan for how this would work.
+
+food-weight: >
+  Using [Green Mountain Technologies](http://compostingtechnology.com/resources/compost-calculator/) measurement of 0.70 pounds of food scraps to 1 pound of water and a water weight of [8.3 pounds per gallon](https://www.fourmilab.ch/hackdiet/www/subsection1_4_2_0_7.html), we get a full 32-gallon Toter weighing **186 pounds**. [Alternate sources](https://www.epa.gov/sites/production/files/2016-04/documents/volume_to_weight_conversion_factors_memorandum_04192016_508fnl.pdf) put its weight between **75 pounds** and **200 pounds**. From personal experience at the NYC Compost Project hosted by Big Reuse, we regularly fill 64-gallon Toters with 300+ pounds of food scraps, suggesting that a 32-gallon Toter could carry around **150 pounds**. These approximations have high error bars due to large variability in food scrap consistency and the compression that can be generated in filling the Toter.
+
+drop-off-size: >
+  [An EPA estimate](https://www.epa.gov/sustainable-management-food/food-too-good-waste-implementation-guide-and-toolkit) puts the amount of food wasted by each American at 429 pounds per year. For a family of 4 dropping-off food scraps every week, that comes to **4 gallons** per drop-off. This estimate is surely high, since not all food waste will make it to the compost bin. From personal experience at the NYC Compost Project hosted by Big Reuse, we get around 40 drop-offs per 64-gallon Toter, which is about **1.5 gallons** per drop-off.
+
+truck-bed-size: >
+  Assuming [standard truck bed dimensions](http://www.truckinamerica.com/toppers/BedSize.htm) of 70 inches by 100 inches and [32-gallon Toter dimensions](http://www.toter.com/consumers/category/two-wheeled-carts) of 20 inches by 24 inches, a fully loaded truck bed would carry 3 Toters width-wise and 4 length-wise.
+
+bike-composter: >
+  A bike composter is a machine that uses flywheels attached to a bicycle's pedal crank for two compost-relevant actions. The first involves activiating a lifter arm to raise a Toter and dump it over into a hopper. The second involves turning a horizontal auger inside a barrel. The idea is that the hopper feeds into the barrel, a Toter full of greens and a Toter full of browns can each be dumped into the barrel, and the augerl can be turned to break up and mix the materials together. The barrel would then have an exit door where the processed material could be dumped out ont the compost pile. The specific designs for such a machine are in production.
+
+colorado-regs: >
+  An important processing scale consideration is the [Colorado State Regulations Pertaining to Solid Waste Sites and Facilities](https://www.colorado.gov/pacific/sites/default/files/Part%201%20eff%2012-30-15.pdf) (Section 14), which offer an exemption to any composting operation of less that 100 cubic yards (**Backyard Composting**). Larger operations that accept food scraps from multiple sources are regulated as **Class III Composting Facilities**. Implemented at the Fully Mechanized Scale, our operation may exceed the limits of the Backyard composting exemption. This could be a motivation for implementing a distributed, sustainably mechanized operation. See also the [CDA statues on fertilizers and soil conditioners](http://bit.ly/2dpuCrx).
+
+jsonformat: >
+  Your file should be formatted as follows:<br><pre>{<br>  "Date": {<br>    "Reading": Temperature<br>    &#x22ee;<br>  },<br>  &#x22ee;<br>}</pre>

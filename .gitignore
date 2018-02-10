@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-metadata
+images
+assets
+deprecated
+python
+sources
+wolfram
+wmd-test.md

@@ -1,0 +1,11 @@
+{% assign sects = site.[{{include.name}}] | sort: 'sect' %}
+<ul class="pagenav">
+{% for item in sects %}
+  <li class="internal{% if forloop.first %} active{% endif %}"><a href="#" id="{{item.title | slugify}}" class="{{item.title | slugify}}">{{item.title}}</a></li>
+{% endfor %}
+</ul>
+{% for item in sects %}
+<div id="{{item.title | slugify}}" class="area {{item.title | slugify}}{% unless forloop.first %} hid{% endunless %}">
+  {{item}}
+</div>
+{% endfor %}

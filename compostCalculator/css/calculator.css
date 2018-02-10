@@ -1,0 +1,48 @@
+.input-thing {
+  margin: 0;
+  //float:left;
+  //max-width: 400px;
+  padding-right: 15px;
+}
+.button {
+  text-align: center;
+  padding:3px;
+  background: #ccc;
+  box-shadow: 2px 2px 2px #888;
+  border: 1px solid #555;
+}
+.input-thing ul {
+  padding: 0 0 0 10px;
+}
+.input-thing ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+  color: #555;
+}
+.feed {
+  padding: 5px 5px;
+  float: left;
+}
+.feeds {
+  padding: 3px 10px;
+}
+.feeds:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.additional {
+  padding-top: 10px;
+}
+.additional ul {
+  float: left;
+  padding: 10px;
+}
+.additional ul li {
+  padding: 3px;
+}
+.additional:after {
+  content: " ";
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,72 @@
+Collection and distribution:
+  Toter bins:
+    function: storing feedstocks and finished compost
+    details: " "
+    scale: all
+  Heavy-duty diesel pickup truck:
+    function: transporting materials
+    details:
+      - Water tank and pump for cleaning
+      - Lift assist gate or ramp and winch for loading
+    scale: Truck Servicing Collection
+  Bicycles outfitted with trailer:
+    function: transporting materials
+    details: " "
+    scale: Bike Servicing Collection
+  Drop-off stations:
+    function: collecting food discards and outreach
+    details:
+      - Labeled boxes affixed to the ground that hold Toters
+    scale: Semi-permanent Disposal Stations Collection Model
+  Tabling implements:
+    function: outreach
+    details:
+      - Table and tent
+      - Organizational literature
+    scale: Pop-up Drop-off Stations Collection Model
+  Trommel screener:
+    function: Screening woody material from the humus
+    details:
+      - Bicycle-powered mechanism
+    scale: Bagged or Bulk Screened Compost Soil Amendment Distribution
+  Compost spreader:
+    function: Distributing finished, screened compost as top-dressing
+    details:
+      - Pull behind unit
+    scale: Bulk, screened compost soil amendment distribution
+
+Processing:
+  Hand tools:
+    function: Various processing activities
+    details:
+      - Rakes
+      - Shovels
+      - Pitch forks
+    scale: all
+  Bike composter:
+    function: A pedal-powered device for dumping waste bins, mixing materials, and outputting onto a compost pile.
+    details:
+      - Bicycle-pedal power
+      - Small-engine power
+    scale: Sustainably Mechanized Processing
+  Skid-steer:
+    function: Various lifting, moving, and dumping processing activities
+    details:
+      - Fresh feedstock bucket
+      - Finished compost bucket
+      - Forklift
+    scale: Fully Mechanized Processing
+  Compost cover:
+    function: Vector and odor reduction
+    details:
+      - Finished compost
+      - >
+        [Gore Cover](https://www.gore.com/products/gore-r-cover-for-organic-waste-treatment)
+    scale: all
+  Office space:
+    function: Administrative site work and product quality tests
+    details:
+      - Laboratory materials
+      - Computer
+      - Outreach materials
+    scale: all

@@ -1,0 +1,21 @@
+<div id="navopen" class="open"><a href="#">
+  More Resources
+  <span class="mark"></span>
+</a>
+</div>
+<div style="clear:both;"></div>
+<div id="navopen-hid">
+  <div class="navtitle dark">
+    <div class="widewrap">
+      <a class="extitle" href="/">{{ site.title }}</a>
+      {% if page.title %}<div class="exright exsubtitle">{{page.title}}</div>{% endif %}
+    </div>
+  </div>
+  <div class="navbody dark">
+  <ul class="widewrap pagenav">
+  {% for item in site.resources %}
+    <li{% if page.title == item.title %} class="active"{% endif %}><a href="{{item.url | prepend: site.baseurl}}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
+  </div>
+</div>

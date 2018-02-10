@@ -1,0 +1,33 @@
+{% if site.mode == 'dev' %}
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="{{ "open" | append: ".js" | prepend: site.script-directory | prepend: site.baseurl }}"></script>
+  <script src="{{ "nav" | append: ".js" | prepend: site.script-directory | prepend: site.baseurl }}"></script>
+  {% for scrip in page.scripts %}
+  <script src="{{ scrip | append: ".js" | prepend: site.script-directory | prepend: site.baseurl }}"></script>
+  {% endfor %}
+{% else %}
+  <script src="http://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="http://cdn.mountaincompost.com/frci-min.js"></script>
+{% endif %}
+{% assign sects = site.data.[{{include.name}}] %}
+<ul class="pagenav">
+{% for item in sects %}
+  <li class="internal{% if forloop.first %} active{% endif %}"><a href="#" id="{{item[0] | slugify}}" class="{{item[0] | slugify}}">{{item[0]}}</a></li>
+{% endfor %}
+</ul>
+{% assign counter = 0 %}
+{% for item in sects %}
+<div id="{{item[0] | slugify}}" class="area {{item[0] | slugify}}{% unless forloop.first %} hid{% endunless %}">
+	<script>
+    $(document).ready( function() {
+		  var source = {{ item[1] | jsonify }},
+		      header = "{{include.header}}",
+					title = "{{item[0] | slugify }}";
+		  categories(source,{{include.depth}},header,title);
+	  });
+	</script>
+	<h1>{{item[0]}}</h1>
+	<div id="{{ item[0] | slugify | append: "-hash" }}"></div>
+</div>
+{% assign counter = counter | plus: 1 %}
+{% endfor %}

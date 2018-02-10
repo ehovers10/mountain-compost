@@ -1,0 +1,49 @@
+
+#diamond-shield {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 20px solid red;
+	position: relative;
+	top: -50px;
+}
+#diamond-shield:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 20px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid red;
+}
+
+.origin {
+	position:absolute;
+	top:10px;
+	left:-10px;
+	width:20px;
+	height:20px;
+	border-radius:10px;
+	background:#555;
+}
+
+.directional {
+	position: relative;
+  .label {
+		position: absolute;
+		width: 100%;
+	  max-width:300px;
+	  height:2px;
+	  margin:0;
+	  background:#555;
+	  text-align:right;
+	  line-height:1.5;
+	}
+
+	.shape {
+		position: absolute;
+	  -moz-border-radius: 50%;
+	  -webkit-border-radius: 50%;
+	  border-radius: 50%;
+	}
+}
